@@ -7,6 +7,12 @@
   <name>Archetype - untitled1</name>
   <url>http://maven.apache.org</url>
 <dependencies>
+  <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+  <dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>32.1.2-jre</version>
+  </dependency>
 
 
 
