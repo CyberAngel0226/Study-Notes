@@ -16,7 +16,7 @@
 
   变量A -> B -> A。Integer 基础类型不影响；如果是针对对象的引用，对象引用回来但是属性可能发生变化。
   
-  可以通过版本控制，添加版本号 cas(version)
+  可以通过版本控制，添加版本号 cas(version)、mark ball
     
 
 底层用法unsafe类，单例设计模式通过反射getUnsafe获取cas方法

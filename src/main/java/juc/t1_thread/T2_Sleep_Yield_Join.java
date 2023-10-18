@@ -47,6 +47,7 @@ public class T2_Sleep_Yield_Join {
 
         Thread t2 = new Thread(() ->{
             try {
+                // 等 t1 执行完再重新执行当前线程
                 t1.join();
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);

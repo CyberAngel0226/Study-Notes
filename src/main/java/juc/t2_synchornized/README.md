@@ -8,7 +8,7 @@ JDK早期 重量级 -OS申请锁，导致效率很低。
 
 锁升级：JDK1.5之后
 
-- 对Object加锁：sync(Object)
+- 对Object加锁：sync(Object)，意味着在对象头上加一个锁的标志，ObjectMode.java
 - 有线程来获取Object，markword 记录线程id，不加锁（偏向锁）
 - 又来了一个线程，如果有线程争用：升级为自旋锁，默认情况自选十次，
 - 线程自选十次之后升级为重量级锁 -OS 里申请资源。
