@@ -34,6 +34,14 @@ public class Question {
         t2.start();
     }
 
+    enum RunReady {
+        T1, T2
+    }
+
+    public void test2() {
+
+    }
+
     public static void main(String[] args) {
         Question q = new Question();
         q.test1();
