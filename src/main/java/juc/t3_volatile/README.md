@@ -22,6 +22,6 @@ DCL单例要不要加volatile 防止半初始化状态发生指令重排
   - loadfence 写屏障 
   - storefence 读屏障
 - happens-before原则，八种重排序必须遵守的原则
-
+ 
 3.并不能保证原子性
 - Count.java
